@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat", system-ui;
+}
+
+h1 {
+  font-weight: 900;
+  color: rgb(15, 104, 104);
+}
+
+h2 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Comfortaa", sans-serif;
+  color: rgb(24, 76, 198);
+}
+
+.custom-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  outline: none;
+}
+
+.custom-input:focus {
+  border-color: #80d8ff;
+  box-shadow: 0 0 8px rgba(0, 150, 255, 0.5);
+}
+
+.custom-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+.custom-button:active {
+  background-color: #3e8e41;
+  transform: scale(0.98);
+}
+
+.custom-table {
+  width: 60%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+  background-color: #e1e1e1;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
